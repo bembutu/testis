@@ -1,0 +1,146 @@
+
+body
+{
+    font-family: 'Roboto'
+    font-size: 3rem;  line-height: 1.5;
+}
+
+
+#title
+{ color: #fff;
+    background-color: #ff4c68;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto-Bold';
+
+}
+
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Roboto-black'
+  font-size: 3rem;
+  line-height: 1.5;
+  }
+
+
+p
+{
+    color: #8f8f8f;
+}
+
+/* Navigation bar */
+
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';  font-color: #000;
+}
+
+/* Title image */
+.title-image
+{
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%
+}
+
+/* Features section */
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box
+{ padding: 5%;
+
+    text-align: center;
+}
+
+.icon
+{ margin-bottom: 1rem;
+
+    color: #ef8172;
+}
+
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials
+{
+    padding: 7% 15%;  text-align: center;  color: #fff;; background-color: #ef8172;
+}
+
+.testimonial-image
+{
+    width: 10%;  margin: 20px; border-radius: 100%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press
+{ padding-bottom: 3%; text-align: center;
+
+    background-color: #ef8172;
+}
+
+.press-logo
+{
+    width: 15%;  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
